@@ -29,9 +29,10 @@
     stack setup
     stack build
     stack exec ToyProject
-    
     ```
     The output has to be `"hello world"`
+    Keep git-bash running.
+    
 8) Add package to ToyProject. Go to D:\Haskell\ToyProject\Main.hs and change contents of the file to
 
    ```
@@ -42,5 +43,12 @@
    main :: IO ()
    main = print $ replace "5" "6" "555"
    ```
-
+   Open `D:\Haskell\ToyProject\ToyProject.cabal` and change string `build-depends: base >= 4.7 && < 5` to `build-depends: base >= 4.7 && < 5, MissingH`. In git-bash run
+   ```
+   stack build
+   stack exec ToyProject
+   ```
+   The output has to be `666`.
+   
+   
    
