@@ -72,5 +72,6 @@
        ```
        Close haskell.coffee tab, click "save", close Atom.
    
-   
+ 12) Create .bat file with `@stack exec -- hie %*` and save it not far from your Haskell folder.
+ 13) Launch Atom, go to ide-haskell-hie package settings, scroll down, check the box "Use a custom hie wrapper" and write the path to          your bat file in the input field below (for example `D:\Haskell\wrapper.bat`).
    
