@@ -85,3 +85,5 @@
      cd C:/Hie
      stack --stack-yaml=stack.yaml exec hoogle generate
      ```
+
+## Thanks a lot to  @worker4food, Anonim Legion, @haskellru and Testov Testov for the idea of "Stone Axe"
