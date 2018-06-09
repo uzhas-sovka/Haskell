@@ -16,6 +16,6 @@
 
     ```
     cd c:/hie
-    stack build
+    stack build --copy-compiler-tool
     ```
     It takes maybe 20 minutes to complete.
