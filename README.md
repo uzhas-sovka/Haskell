@@ -10,4 +10,5 @@
 
     and press enter. Wait for operation to complete.
 
-4) The rest
+4) Keep git-bash running. Find folder **C:\msys\1.0\home\haskell-ide-engine** and copy (don't move) it to the root of drive C.
+5) Install Haskell Stack, https://docs.haskellstack.org/en/stable/README/#how-to-install.
