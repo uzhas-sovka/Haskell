@@ -58,8 +58,19 @@
  9) Install Atom text editor.
  10) In git-bash run
  
-    `apm install language-haskell atom-ide-ui ide-haskell-hie script`
- 11) Patch Script package in Atom. Choose File/Settings/Packages, enter Script, wait for Script box to appear, click Settings/View code.      At the left tree choose script/lib/grammars/haskell.coffee.  
+     `apm install language-haskell atom-ide-ui ide-haskell-hie script`
+     
+ 11) Patch Script package in Atom. Choose File/Settings/Packages, enter Script, wait for Script box to appear, click Settings/View code.      At the left tree choose script/lib/grammars/haskell.coffee. Change 'File Based' part to
+
+      ```
+      'File Based':
+        command: 'stack'
+        args: ({filepath}) ->
+        parts = filepath.split('\\')
+        projectName = parts[2]
+        return ['build', '--exec', projectName]
+       ```
+
    
    
    
