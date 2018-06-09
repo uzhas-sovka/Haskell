@@ -5,5 +5,9 @@
 2) Install Git for Windows, https://git-scm.com/download/win. Check "Additional items on the Desktop" during installation, we will be using Git Bash a lot. Leave the rest as it is.
 
 3) Install Haskell-ide-engine. Run Git Bash from desktop (you may enlarge font in Options/Text), then paste
+  
   `git clone https://github.com/haskell/haskell-ide-engine --recursive`
+
 and press enter. Wait for operation to complete.
+
+4) The rest
