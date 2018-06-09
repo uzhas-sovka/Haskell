@@ -14,6 +14,7 @@
 5) Install Haskell Stack, https://docs.haskellstack.org/en/stable/README/#how-to-install.
 6) Build `hie`. In git-bash run
 
-    `cd c:/hie
-    
-    stack build`
+    ```
+    cd c:/hie
+    stack build
+    ```
