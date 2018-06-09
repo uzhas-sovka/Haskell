@@ -6,8 +6,8 @@
 
 3) Install Haskell-ide-engine. Run Git Bash from desktop (you may enlarge font in Options/Text), then paste
   
-  `git clone https://github.com/haskell/haskell-ide-engine --recursive`
+    `git clone https://github.com/haskell/haskell-ide-engine --recursive`
 
-and press enter. Wait for operation to complete.
+    and press enter. Wait for operation to complete.
 
 4) The rest
