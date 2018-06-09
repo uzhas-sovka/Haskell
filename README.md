@@ -70,7 +70,7 @@
         projectName = parts[2]
         return ['build', '--exec', projectName]
        ```
-
+       Close haskell.coffee tab, click "save", close Atom.
    
    
    
