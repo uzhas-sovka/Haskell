@@ -32,6 +32,15 @@
     
     ```
     The output has to be `"hello world"`
-8) Add package to ToyProject.
+8) Add package to ToyProject. Go to D:\Haskell\ToyProject\Main.hs and change contents of the file to
+
+   ```
+   module Main where
+
+   import Data.String.Utils
+
+   main :: IO ()
+   main = print $ replace "5" "6" "555"
+   ```
 
    
