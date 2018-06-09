@@ -18,4 +18,4 @@
     cd c:/hie
     stack build
     ```
-    It'll take maybe 20 minutes to complete.
+    It takes maybe 20 minutes to complete.
