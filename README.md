@@ -26,5 +26,7 @@
     stack new ToyProject simple
     ```
 8) Keep git-bash runing. Build toy haskell project. In git-bash run
+
    `stack build`
-   wait for 10 minutes.
+
+   Wait for 10 minutes.
