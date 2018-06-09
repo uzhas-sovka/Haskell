@@ -23,11 +23,15 @@
  7) Make toy Haskell project. For example, your (now empty) root folder for Haskell projects is `D:\Haskell`. In git-bash run 
     
     ```
-    cd d:/haskell/ToyProject
+    cd d:/haskell
     stack new ToyProject simple
+    cd ToyProject
+    stack setup
+    stack build
+    stack exec ToyProject
+    
     ```
-8) Keep git-bash runing. Build toy haskell project. In git-bash run
+    The output has to be `"hello world"`
+8) Add package to ToyProject.
 
-   `stack build`
-
-   Wait for 10 minutes.
+   
