@@ -16,7 +16,7 @@
 
     ```
     cd c:/hie
-    stack build --copy-compiler-tool
+    stack --stack-yaml=stack-8.2.2.yaml install
     ```
     It takes maybe 20 minutes to complete.
  
