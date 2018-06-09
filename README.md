@@ -75,4 +75,13 @@
  12) Create .bat file with `@stack exec -- hie %*` and save it not far from your Haskell folder.
  13) Launch Atom, go to ide-haskell-hie package settings, scroll down, check the box "Use a custom hie wrapper" and write the path to          your bat file in the input field below (for example `D:\Haskell\wrapper.bat`).
  14) Re-launch Atom. Open folder `D:\Haskell\ToyProject` (open folder, not file). Navigate to `src\Main.hs`, open `Main.hs`. Click            `ctrl+shift+b`. The output has to be `666`.
- 
+ 15) Generate haddock documentation for ToyProject. In git-bash run
+     ```
+     cd D:/Haskell/ToyProject
+     stack haddock --keep-going
+     ```
+ 16) Generate hoogle database. In git-bash run
+     ```
+     cd C:/Hie
+     stack --stack-yaml=stack.yaml exec hoogle generate
+     ```
