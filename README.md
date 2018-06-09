@@ -43,7 +43,12 @@
    main :: IO ()
    main = print $ replace "5" "6" "555"
    ```
-   Open `D:\Haskell\ToyProject\ToyProject.cabal` and change string `build-depends: base >= 4.7 && < 5` to `build-depends: base >= 4.7 && < 5, MissingH`. In git-bash run
+   Open `D:\Haskell\ToyProject\ToyProject.cabal` and change string
+   `build-depends: base >= 4.7 && < 5`
+   to 
+   `build-depends: base >= 4.7 && < 5, MissingH`.
+   
+   In git-bash run
    ```
    stack build
    stack exec ToyProject
