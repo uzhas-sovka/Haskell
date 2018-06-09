@@ -55,5 +55,7 @@
    ```
    The output has to be `666`.
    
+   9) Install Atom.
+   
    
    
