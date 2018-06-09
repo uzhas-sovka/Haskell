@@ -20,7 +20,8 @@
     ```
     It takes maybe 20 minutes to complete.
  
- 7) Make toy Haskell project. For example, your root folder for Haskell projects is `D:\Haskell`. Make new folder `ToyProject` inside it. In git-bash run 
+ 7) Make toy Haskell project. For example, your (now empty) root folder for Haskell projects is `D:\Haskell`. In git-bash run 
+    
     ```
     cd d:/haskell/ToyProject
     stack new ToyProject simple
