@@ -10,9 +10,9 @@
 
     and press enter. Wait for operation to complete.
 
-4) Keep git-bash running. Find folder **C:\msys\1.0\home\haskell-ide-engine** and copy (don't move) it to the root of drive C. Rename it from "haskell-ide-engine" to "hie".
+4) Exit git-bash. Find folder **C:\msys\1.0\home\haskell-ide-engine** and copy (don't move) it to the root of drive C. Rename it from "haskell-ide-engine" to "hie".
 5) Install Haskell Stack, https://docs.haskellstack.org/en/stable/README/#how-to-install.
-6) Build `hie`. Re-launch git-bash. In git-bash run
+6) Build `hie`. Launch git-bash, in git-bash run
 
     ```
     cd c:/hie
